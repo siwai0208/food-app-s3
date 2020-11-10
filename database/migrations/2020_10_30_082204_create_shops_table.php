@@ -21,7 +21,6 @@ class CreateShopsTable extends Migration
             $table->string('password');
             $table->string('phone')->unique();
             $table->string('detail', '500');
-            $table->integer('item_id');
             $table->rememberToken();
             $table->timestamps();
         });
