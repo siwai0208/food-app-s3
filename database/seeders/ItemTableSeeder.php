@@ -20,9 +20,6 @@ class ItemTableSeeder extends Seeder
          'detail' => '本場タイの味',
          'price' => '80',
          'imgpath' => 'トムヤムクン.jpg',
-         'type1' => 'スープ',
-         'type2' => 'エビ',
-         'type3' => 'タイ料理',
       ]);
 
       DB::table('items')->insert([
@@ -30,9 +27,6 @@ class ItemTableSeeder extends Seeder
          'detail' => '本場タイの味',
          'price' => '40',
          'imgpath' => 'カオマンガイ.jpg',
-         'type1' => 'ライス',
-         'type2' => '鳥',
-         'type3' => 'タイ料理',
       ]);
 
       DB::table('items')->insert([
@@ -40,9 +34,6 @@ class ItemTableSeeder extends Seeder
          'detail' => '本場タイの味',
          'price' => '50',
          'imgpath' => 'ガパオライス.jpg',
-         'type1' => 'ライス',
-         'type2' => '豚',
-         'type3' => 'タイ料理',
       ]);
 
       DB::table('items')->insert([
@@ -50,9 +41,6 @@ class ItemTableSeeder extends Seeder
          'detail' => '本場タイの味',
          'price' => '200',
          'imgpath' => 'プー・パッポンカレー.jpg',
-         'type1' => 'ライス',
-         'type2' => 'カレー',
-         'type3' => 'タイ料理',
       ]);
 
       DB::table('items')->insert([
@@ -60,9 +48,6 @@ class ItemTableSeeder extends Seeder
          'detail' => '本場タイの味',
          'price' => '150',
          'imgpath' => 'グリーンカレー.jpg',
-         'type1' => 'ライス',
-         'type2' => 'カレー',
-         'type3' => 'タイ料理',
       ]);
 
       DB::table('items')->insert([
@@ -70,9 +55,6 @@ class ItemTableSeeder extends Seeder
          'detail' => '本場タイの味',
          'price' => '120',
          'imgpath' => 'パッタイ（エビ）.jpg',
-         'type1' => '麺類',
-         'type2' => '麺',
-         'type3' => 'タイ料理',
       ]);
 
       DB::table('items')->insert([
@@ -80,9 +62,6 @@ class ItemTableSeeder extends Seeder
          'detail' => '本場タイの味',
          'price' => '100',
          'imgpath' => 'パッタイ（豚）.jpg',
-         'type1' => '麺類',
-         'type2' => '麺',
-         'type3' => 'タイ料理',
       ]);
 
       DB::table('items')->insert([
@@ -90,9 +69,6 @@ class ItemTableSeeder extends Seeder
          'detail' => '本場タイの味',
          'price' => '60',
          'imgpath' => 'ラーブ（アヒル）.jpg',
-         'type1' => '惣菜',
-         'type2' => '鳥',
-         'type3' => 'タイ料理',
       ]);
 
       DB::table('items')->insert([
@@ -100,9 +76,6 @@ class ItemTableSeeder extends Seeder
          'detail' => '本場タイの味',
          'price' => '60',
          'imgpath' => 'コムヤーン.jpg',
-         'type1' => '焼き物',
-         'type2' => '豚',
-         'type3' => 'タイ料理',
       ]);
 
       DB::table('items')->insert([
@@ -110,9 +83,6 @@ class ItemTableSeeder extends Seeder
          'detail' => '本場タイの味',
          'price' => '90',
          'imgpath' => 'ガイヤーン.jpg',
-         'type1' => '焼き物',
-         'type2' => '鳥',
-         'type3' => 'タイ料理',
       ]);
 
       DB::table('items')->insert([
@@ -120,9 +90,6 @@ class ItemTableSeeder extends Seeder
          'detail' => '本場タイの味',
          'price' => '30',
          'imgpath' => 'クイッティアオ.jpg',
-         'type1' => '麺類',
-         'type2' => '麺',
-         'type3' => 'タイ料理',
       ]);
 
       DB::table('items')->insert([
@@ -130,9 +97,6 @@ class ItemTableSeeder extends Seeder
          'detail' => '本場タイの味',
          'price' => '50',
          'imgpath' => 'ソムタム・タイ.jpg',
-         'type1' => 'サラダ',
-         'type2' => 'パパイヤ',
-         'type3' => 'タイ料理',
       ]);
 
       DB::table('items')->insert([
@@ -140,9 +104,6 @@ class ItemTableSeeder extends Seeder
          'detail' => '本場タイの味',
          'price' => '60',
          'imgpath' => 'ソムタム・プー.jpg',
-         'type1' => 'サラダ',
-         'type2' => 'パパイヤ',
-         'type3' => 'タイ料理',
       ]);
 
       DB::table('items')->insert([
@@ -150,9 +111,6 @@ class ItemTableSeeder extends Seeder
          'detail' => '本場タイの味',
          'price' => '200',
          'imgpath' => 'プラーガポン・トート・ナンプラー.jpg',
-         'type1' => '揚げ物',
-         'type2' => '魚',
-         'type3' => 'タイ料理',
       ]);
 
       DB::table('items')->insert([
@@ -160,9 +118,6 @@ class ItemTableSeeder extends Seeder
          'detail' => '本場タイの味',
          'price' => '60',
          'imgpath' => 'ガイトートナンプラー.jpg',
-         'type1' => '揚げ物',
-         'type2' => '豚',
-         'type3' => 'タイ料理',
       ]);
 
       DB::table('items')->insert([
@@ -170,9 +125,6 @@ class ItemTableSeeder extends Seeder
          'detail' => '本場タイの味',
          'price' => '80',
          'imgpath' => 'ムートートナンプラー.jpg',
-         'type1' => '揚げ物',
-         'type2' => '鳥',
-         'type3' => 'タイ料理',
       ]);
 
       DB::table('items')->insert([
@@ -180,9 +132,6 @@ class ItemTableSeeder extends Seeder
          'detail' => '本場タイの味',
          'price' => '130',
          'imgpath' => 'マッサマンカレー.jpg',
-         'type1' => 'ライス',
-         'type2' => 'カレー',
-         'type3' => 'タイ料理',
       ]);
 
       DB::table('items')->insert([
@@ -190,9 +139,6 @@ class ItemTableSeeder extends Seeder
          'detail' => '本場タイの味',
          'price' => '200',
          'imgpath' => 'クンパオ.jpg',
-         'type1' => '焼き物',
-         'type2' => 'エビ',
-         'type3' => 'タイ料理',
       ]);
 
       DB::table('items')->insert([
@@ -200,9 +146,6 @@ class ItemTableSeeder extends Seeder
          'detail' => '本場タイの味',
          'price' => '100',
          'imgpath' => 'トムカーガイ.jpg',
-         'type1' => 'スープ',
-         'type2' => '鳥',
-         'type3' => 'タイ料理',
       ]);
 
       DB::table('items')->insert([
@@ -210,9 +153,6 @@ class ItemTableSeeder extends Seeder
          'detail' => '本場タイの味',
          'price' => '50',
          'imgpath' => 'ヤムウンセン.jpg',
-         'type1' => 'サラダ',
-         'type2' => '麺',
-         'type3' => 'タイ料理',
       ]);
 
       DB::table('items')->insert([
@@ -220,9 +160,6 @@ class ItemTableSeeder extends Seeder
          'detail' => '日本の味',
          'price' => '180',
          'imgpath' => 'サーモン刺身.jpg',
-         'type1' => '惣菜',
-         'type2' => '魚',
-         'type3' => '日本料理',
       ]);
 
       DB::table('items')->insert([
@@ -230,9 +167,6 @@ class ItemTableSeeder extends Seeder
          'detail' => '日本の味',
          'price' => '80',
          'imgpath' => 'サーモンにぎり.jpg',
-         'type1' => 'ライス',
-         'type2' => '魚',
-         'type3' => '日本料理',
       ]);
 
       DB::table('items')->insert([
@@ -240,9 +174,6 @@ class ItemTableSeeder extends Seeder
          'detail' => '日本の味',
          'price' => '150',
          'imgpath' => 'サーモン丼.jpg',
-         'type1' => 'ライス',
-         'type2' => '魚',
-         'type3' => '日本料理',
       ]);
 
       DB::table('items')->insert([
@@ -250,9 +181,6 @@ class ItemTableSeeder extends Seeder
          'detail' => '日本の味',
          'price' => '300',
          'imgpath' => '餃子（30個）.jpg',
-         'type1' => '惣菜',
-         'type2' => '豚',
-         'type3' => '日本料理',
       ]);
 
       DB::table('items')->insert([
@@ -260,9 +188,6 @@ class ItemTableSeeder extends Seeder
          'detail' => '日本の味',
          'price' => '200',
          'imgpath' => '豚骨ラーメン.jpg',
-         'type1' => '麺類',
-         'type2' => '麺',
-         'type3' => '日本料理',
       ]);
 
       DB::table('items')->insert([
@@ -270,9 +195,6 @@ class ItemTableSeeder extends Seeder
          'detail' => '日本の味',
          'price' => '180',
          'imgpath' => 'やきそば.jpg',
-         'type1' => '麺類',
-         'type2' => '麺',
-         'type3' => '日本料理',
       ]);
 
       DB::table('items')->insert([
@@ -280,9 +202,6 @@ class ItemTableSeeder extends Seeder
          'detail' => '日本の味',
          'price' => '150',
          'imgpath' => 'トムヤムラーメン.jpg',
-         'type1' => '麺類',
-         'type2' => '麺',
-         'type3' => '日本料理',
       ]);
 
       DB::table('items')->insert([
@@ -290,9 +209,6 @@ class ItemTableSeeder extends Seeder
          'detail' => '日本の味',
          'price' => '150',
          'imgpath' => 'カレーライス.jpg',
-         'type1' => 'ライス',
-         'type2' => 'カレー',
-         'type3' => '日本料理',
       ]);
 
       DB::table('items')->insert([
@@ -300,9 +216,6 @@ class ItemTableSeeder extends Seeder
          'detail' => '日本の味',
          'price' => '150',
          'imgpath' => '焼き鳥セット.jpg',
-         'type1' => '惣菜',
-         'type2' => '鳥',
-         'type3' => '日本料理',
       ]);
 
       DB::table('items')->insert([
@@ -310,9 +223,6 @@ class ItemTableSeeder extends Seeder
          'detail' => '日本の味',
          'price' => '250',
          'imgpath' => '焼きサバ定食.jpg',
-         'type1' => 'ライス',
-         'type2' => '魚',
-         'type3' => '日本料理',
       ]);
 
       DB::table('items')->insert([
@@ -320,9 +230,6 @@ class ItemTableSeeder extends Seeder
          'detail' => '日本の味',
          'price' => '100',
          'imgpath' => 'たこやき.jpg',
-         'type1' => '惣菜',
-         'type2' => '魚',
-         'type3' => '日本料理',
       ]);
 
       DB::table('items')->insert([
@@ -330,9 +237,6 @@ class ItemTableSeeder extends Seeder
          'detail' => '日本の味',
          'price' => '200',
          'imgpath' => '醤油ラーメン.jpg',
-         'type1' => '麺類',
-         'type2' => '麺',
-         'type3' => '日本料理',
       ]);
 
       DB::table('items')->insert([
@@ -340,9 +244,6 @@ class ItemTableSeeder extends Seeder
          'detail' => '日本の味',
          'price' => '250',
          'imgpath' => 'ハンバーグ定食.jpg',
-         'type1' => 'ライス',
-         'type2' => '豚',
-         'type3' => '日本料理',
       ]);
 
       DB::table('items')->insert([
@@ -350,9 +251,6 @@ class ItemTableSeeder extends Seeder
          'detail' => '日本の味',
          'price' => '190',
          'imgpath' => 'かつ丼.jpg',
-         'type1' => 'ライス',
-         'type2' => '豚',
-         'type3' => '日本料理',
       ]);
 
       DB::table('items')->insert([
@@ -360,9 +258,6 @@ class ItemTableSeeder extends Seeder
          'detail' => '日本の味',
          'price' => '160',
          'imgpath' => 'えび天丼.jpg',
-         'type1' => 'ライス',
-         'type2' => 'エビ',
-         'type3' => '日本料理',
       ]);
 
       DB::table('items')->insert([
@@ -370,9 +265,6 @@ class ItemTableSeeder extends Seeder
          'detail' => '日本の味',
          'price' => '140',
          'imgpath' => '豚丼.jpg',
-         'type1' => 'ライス',
-         'type2' => '豚',
-         'type3' => '日本料理',
       ]);
 
       DB::table('items')->insert([
@@ -380,9 +272,6 @@ class ItemTableSeeder extends Seeder
          'detail' => 'イタリアの味',
          'price' => '240',
          'imgpath' => 'ピザ・マルゲリータ.jpg',
-         'type1' => 'ピザ',
-         'type2' => 'ピザ',
-         'type3' => 'イタリア料理',
       ]);
 
       DB::table('items')->insert([
@@ -390,9 +279,6 @@ class ItemTableSeeder extends Seeder
          'detail' => 'イタリアの味',
          'price' => '240',
          'imgpath' => 'ピザ・ハワイアン.jpg',
-         'type1' => 'ピザ',
-         'type2' => 'ピザ',
-         'type3' => 'イタリア料理',
       ]);
 
       DB::table('items')->insert([
@@ -400,9 +286,6 @@ class ItemTableSeeder extends Seeder
          'detail' => 'イタリアの味',
          'price' => '110',
          'imgpath' => 'カルボナーラ.jpg',
-         'type1' => '麺類',
-         'type2' => '麺',
-         'type3' => 'イタリア料理',
       ]);
 
       DB::table('items')->insert([
@@ -410,9 +293,6 @@ class ItemTableSeeder extends Seeder
          'detail' => 'イタリアの味',
          'price' => '100',
          'imgpath' => 'トマトスパゲッティ.jpg',
-         'type1' => '麺類',
-         'type2' => '麺',
-         'type3' => 'イタリア料理',
       ]);
 
     }
