@@ -49,10 +49,10 @@ class MainController extends Controller
     public function checkout(Request $request, Cart $cart)
     {
         $user = Auth::user();
-        $mail_data['user']=$user->name;
-        $mail_data['checkout']=$cart->checkoutCart(); 
-        Mail::to($user->email)->send(new Thanks($mail_data));
-        return view('checkout');
+        // $mail_data['user']=$user->name;
+        $checkout=$cart->checkoutCart(); 
+        // Mail::to($user->email)->send(new Thanks($mail_data));
+        return view('checkout', $checkout);
     }
 
 }

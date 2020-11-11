@@ -58,9 +58,14 @@ class Cart extends Model
     public function checkoutCart()
     {
         $user_id = Auth::id(); 
-        $checkout=$this->where('user_id', $user_id)->get();
+        $checkout['mycarts']=$this->where('user_id', $user_id)->get();
+        $checkout['sum']=0;
         $this->where('user_id', $user_id)->delete();
+
+        foreach($checkout['mycarts'] as $mycart){
+            $checkout['sum'] += $mycart->item->price;
+        }
         
-         return $checkout;     
+        return $checkout;     
     }
 }

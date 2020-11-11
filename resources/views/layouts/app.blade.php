@@ -99,9 +99,6 @@
                         </p>
                     @endif
                 
-                @else
-                    <a class="main" href="{{ url('/') }}" style="font-size:1.8em;"> TOPページ </a>
-
                 @endguest
                     <br>
                     <div style="margin-top:24px;">

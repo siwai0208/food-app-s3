@@ -37,7 +37,7 @@
                     </form>
 
                 @else
-                <p class="text-center">カートはからっぽです。<br>TOPページから商品を選択してください</p>
+                <p class="text-center">カートはからっぽです。<br><a href="{{ url('/') }}">TOPページ</a>から商品を選択してください</p>
                 @endif
 
             </div>
