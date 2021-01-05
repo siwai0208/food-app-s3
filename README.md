@@ -28,7 +28,7 @@ Laravel8を用いたECサンプルアプリ、S3バケットでItem画像を配�
 3. Login to App container and clone this repository into document root (/usr/share/nginx/html/laravel)
 ```
 $ docker-compose exec app bash
-$ git clone https://github.com/siwai0208/food-app-s3 laravel
+$ git clone https://github.com/siwai0208/food-app laravel
 ```
 
 4. storage と　bootstrap/cache/　のパーミッション変更
